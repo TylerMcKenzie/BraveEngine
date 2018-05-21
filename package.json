@@ -5,13 +5,14 @@
   "main": "./dist/index.js",
   "scripts": {
     "test": "test",
-    "build": "babel src -d dist/ --presets=minify",
+    "build": "babel src -d dist/ --presets=minify,babel-preset-es2015",
     "prepublish": "npm run build"
   },
   "author": "Tyler Mckenzie",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-minify": "^0.4.3"
+    "babel-minify": "^0.4.3",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
