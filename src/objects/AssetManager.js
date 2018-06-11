@@ -180,4 +180,4 @@ class AssetManager {
   }
 }
 
-export default AssetManager
+module.exports = AssetManager

@@ -1,4 +1,4 @@
-import Vector from "./Vector"
+const Vector = require("./Vector")
 
 class Renderable {
   constructor({x = 0, y = 0}) {
@@ -29,4 +29,4 @@ class Renderable {
 
 }
 
-export default Renderable
+module.exports = Renderable

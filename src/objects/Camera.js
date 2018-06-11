@@ -1,4 +1,4 @@
-import Rectangle from "./Rectangle"
+const Rectangle = require("./Rectangle")
 
 class Camera {
   static get AXIS() {
@@ -124,4 +124,4 @@ class Camera {
   }
 }
 
-export default Camera
+module.exports = Camera

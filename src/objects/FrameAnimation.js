@@ -47,4 +47,4 @@ class FrameAnimation {
   }
 }
 
-export default FrameAnimation
+module.exports = FrameAnimation

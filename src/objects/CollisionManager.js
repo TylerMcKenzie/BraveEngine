@@ -1,4 +1,4 @@
-import ShapeManager from "./ShapeManager"
+const ShapeManager = require("./ShapeManager")
 
 class CollisionManager {
   static polygonWithPolygon(polygon1, polygon2) {
@@ -58,4 +58,4 @@ class CollisionManager {
   }
 }
 
-export default CollisionManager
+module.exports = CollisionManager

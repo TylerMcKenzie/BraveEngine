@@ -1,5 +1,5 @@
-import CollisionManager from "./CollisionManager"
-import ShapeManager from "./ShapeManager"
+const CollisionManager = require("./CollisionManager")
+const ShapeManager = require("./ShapeManager")
 
 class Hitbox {
   constructor(shapeOpts) {
@@ -44,4 +44,4 @@ class Hitbox {
   }
 }
 
-export default Hitbox
+module.exports = Hitbox

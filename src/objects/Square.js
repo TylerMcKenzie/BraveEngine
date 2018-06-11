@@ -1,4 +1,4 @@
-import Polygon from "./Polygon"
+const Polygon = require("./Polygon")
 
 class Square extends Polygon {
   static generateSquareCoordinates(size) {
@@ -32,4 +32,4 @@ class Square extends Polygon {
   }
 }
 
-export default Square
+module.exports = Square

@@ -5,21 +5,21 @@
 /*
 * World Building Objects
 */
-import Game  from "./objects/Game.js"
-import State from "./objects/State.js"
+const Game  = require("./objects/Game.js")
+const State = require("./objects/State.js")
 
 /*
 * World Elements
 */
-// import Physics2D from './elements/Physics2D.js'
+// const Physics2D from './elements/Physics2D.js'
 
 
 /*
 * Game Centered Objects
 */
-import Sprite  from "./objects/Sprite.js"
-import Text    from "./objects/Text.js"
-import Graphic from "./objects/Graphic.js"
+const Sprite  = require("./objects/Sprite.js")
+const Text    = require("./objects/Text.js")
+const Graphic = require("./objects/Graphic.js")
 
 const BraveEngine = {
   Game,
@@ -29,4 +29,4 @@ const BraveEngine = {
   Graphic
 }
 
-export default BraveEngine
+module.exports = BraveEngine

@@ -1,6 +1,6 @@
-import State from "./State"
+const State = require("./State")
 
-export default class StateManager {
+module.exports = class StateManager {
   constructor(game) {
     this.states = {}
     this._current = null
