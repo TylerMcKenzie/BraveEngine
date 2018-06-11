@@ -2,7 +2,7 @@
   "name": "braveengine",
   "version": "1.0.0",
   "description": "Small html game library",
-  "main": "./dist/braveengine.min.js",
+  "main": "./src/BraveEngine.js",
   "scripts": {
     "test": "test",
     "build": "webpack",
