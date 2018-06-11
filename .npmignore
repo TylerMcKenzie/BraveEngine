@@ -1,1 +1,4 @@
-dist
+src
+webpack.config.js
+index.html
+.babelrc
