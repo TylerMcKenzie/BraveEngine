@@ -11,8 +11,8 @@
 * @param gameName { string } [default=''] - Name of your game.
 *
 */
-import StateManager from "./StateManager"
-import AssetManager from "./AssetManager"
+const StateManager = require("./StateManager")
+const AssetManager = require("./AssetManager")
 
 class Game {
   constructor(width, height, parentElement, renderingContext, gameName = "", startState, assetsConfig = {}) {
@@ -122,4 +122,4 @@ class Game {
   }
 }
 
-export default Game
+module.exports = Game

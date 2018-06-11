@@ -1,7 +1,7 @@
-import Polygon from "./Polygon"
-import Circle from "./Circle"
-import Rectangle from "./Rectangle"
-import Square from "./Square"
+const Polygon = require("./Polygon")
+const Circle = require("./Circle")
+const Rectangle = require("./Rectangle")
+const Square = require("./Square")
 
 class ShapeManager {
   static shapeType(shape) {
@@ -63,4 +63,4 @@ class ShapeManager {
   }
 }
 
-export default ShapeManager
+module.exports = ShapeManager

@@ -1,4 +1,4 @@
-import FrameAnimation from "./FrameAnimation"
+const FrameAnimation = require("./FrameAnimation")
 
 class SpriteSheet {
   constructor({animations = {}, image, frameWidth, frameHeight, frameMargin = 0}) {
@@ -42,4 +42,4 @@ class SpriteSheet {
   }
 }
 
-export default SpriteSheet
+module.exports = SpriteSheet

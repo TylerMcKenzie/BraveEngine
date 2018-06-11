@@ -1,6 +1,6 @@
-import Renderable from "./Renderable"
-import ShapeManager from "./ShapeManager"
-import Vector from "./Vector"
+const Renderable = require("./Renderable")
+const ShapeManager = require("./ShapeManager")
+const Vector = require("./Vector")
 
 class Graphic extends Renderable{
   constructor({x = 0, y = 0, color = "black", shape, context = null, update = (dt) => {}}) {
@@ -46,4 +46,4 @@ class Graphic extends Renderable{
   }
 }
 
-export default Graphic
+module.exports = Graphic

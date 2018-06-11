@@ -1,6 +1,6 @@
 {
   "name": "braveengine",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Small html game library",
   "main": "./src/BraveEngine.js",
   "scripts": {

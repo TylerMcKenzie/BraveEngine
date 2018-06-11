@@ -1,4 +1,4 @@
-import Polygon from "./Polygon"
+const Polygon = require("./Polygon")
 
 class Rectangle extends Polygon {
   static generateRectanglePoints(width, height) {
@@ -45,4 +45,4 @@ class Rectangle extends Polygon {
   }
 }
 
-export default Rectangle
+module.exports = Rectangle

@@ -1,7 +1,7 @@
-import Vector from "./Vector"
-import Hitbox from "./Hitbox"
-import Renderable from "./Renderable"
-import SpriteSheet from "./SpriteSheet"
+const Vector = require("./Vector")
+const Hitbox = require("./Hitbox")
+const Renderable = require("./Renderable")
+const SpriteSheet = require("./SpriteSheet")
 
 class Sprite extends Renderable {
   constructor({width = 0, height = 0, color = "black", x = 0, y = 0, z, velX = 0, velY = 0, accX = 0, accY = 0, ttl = 0, update, advance, render, draw, context = null, image = null, spritesheet, origin = "top-left", hitbox}) {
@@ -173,4 +173,4 @@ class Sprite extends Renderable {
   }
 }
 
-export default Sprite
+module.exports = Sprite
