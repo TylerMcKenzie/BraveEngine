@@ -1,5 +1,5 @@
-import Renderable from "./Renderable"
-import Vector from "./Vector"
+const Renderable = require("./Renderable")
+const Vector = require("./Vector")
 
 class Text extends Renderable {
   constructor({text = "", x = 0, y = 0, context = null, font}) {
@@ -49,4 +49,4 @@ class Text extends Renderable {
   }
 }
 
-export default Text
+module.exports = Text

@@ -1,4 +1,4 @@
-import Vector from "./Vector"
+const Vector = require("./Vector")
 
 class Shape {
   constructor({x = 0, y = 0, rotation = 0}) {
@@ -33,4 +33,4 @@ class Shape {
   }
 }
 
-export default Shape
+module.exports = Shape

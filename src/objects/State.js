@@ -1,8 +1,8 @@
-import Stage from "./Stage"
-import Text from "./Text"
-import Sprite from "./Sprite"
-import Graphic from "./Graphic"
-import Camera from "./Camera"
+const Stage = require("./Stage")
+const Text = require("./Text")
+const Sprite = require("./Sprite")
+const Graphic = require("./Graphic")
+const Camera = require("./Camera")
 
 class State {
   static isState(object) {
@@ -92,4 +92,4 @@ class State {
   }
 }
 
-export default State
+module.exports = State

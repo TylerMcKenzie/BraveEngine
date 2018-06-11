@@ -1,5 +1,5 @@
-import Shape from "./Shape"
-import Vector from "./Vector"
+const Shape = require("./Shape")
+const Vector = require("./Vector")
 
 class Polygon extends Shape {
   static generateVectorPoints(vectorArray) {
@@ -71,4 +71,4 @@ class Polygon extends Shape {
   }
 }
 
-export default Polygon
+module.exports = Polygon

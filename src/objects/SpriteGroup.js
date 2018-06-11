@@ -4,4 +4,4 @@ class SpriteGroup {
   }
 }
 
-export default SpriteGroup
+module.exports = SpriteGroup

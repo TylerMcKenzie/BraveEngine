@@ -1,4 +1,4 @@
-import Shape from "./Shape"
+const Shape = require("./Shape")
 
 class Circle extends Shape {
   constructor({x, y, rotation, radius = 0}) {
@@ -33,4 +33,4 @@ class Circle extends Shape {
   }
 }
 
-export default Circle
+module.exports = Circle

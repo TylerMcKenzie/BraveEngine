@@ -72,4 +72,4 @@ class Stage {
   }
 }
 
-export default Stage
+module.exports = Stage
