@@ -5,7 +5,8 @@
   "main": "./src/BraveEngine.js",
   "scripts": {
     "test": "test",
-    "build": "webpack",
+    "build": "webpack -p",
+    "build-micro": "webpack ./micro/BraveEngineMicro.js -p --output-filename='braveenginemicro.min.js'",
     "prepublish": "npm run build"
   },
   "author": "Tyler Mckenzie",
